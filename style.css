@@ -1,0 +1,262 @@
+@font-face
+{
+	font-family: 'BallparkWeiner';
+	            src: url('polices/ballpark.eot');
+	            src: url('polices/ballpark.eot?#iefix')
+	                 format('embedded_opentype'),
+	                 url('polices/ballpark.wotf')
+	                 format('wotf'),
+	                 url('polices/ballpark.ttf')
+	                 format('truetype'),
+	                url('polices/ballpark.svg#BallparkWeiner')
+	                format('svg');
+}
+@font-face
+{
+	font-family: 'Dayrom';
+	            src: url('polices/dayrom.eot');
+	            src: url('polices/dayrom.eot?#iefix')
+	                 format('embedded_opentype'),
+	                 url('polices/dayrom.wotf')
+	                 format('wotf'),
+	                 url('polices/dayrom.ttf')
+	                 format('truetype'),
+	                url('polices/dayrom.svg#Dayrom')
+	                format('svg');
+	                
+ }
+
+#bloc_page
+{
+	margin: auto;
+}
+header p 
+{
+	padding: 10px 25px 10px 25px;
+	margin: 10px 25px 10px 25px;
+	text-align: center;
+	background-color: antiquewhite;
+	font-size: 1em;
+	text-align: justify;
+	font-family: 'Dayrom', serif;
+	
+}
+#contenu
+{
+	margin: 25px;
+	background-color: beige;
+}
+.souligne
+{
+	text-decoration: underline;
+}
+
+h2, h3
+{
+	text-decoration: underline;
+}
+.gras
+{
+	font-weight: bold;
+}
+.bleu
+{
+	color: blue;
+}
+.flottant
+{
+	float: right;
+}
+.flotter
+{
+	float: left;
+}
+.de
+{
+	float: left;
+}
+.Le
+{
+	clear: right;
+}
+.droite
+{
+	float: initial;
+}
+.basse
+{
+	clear: both;
+}
+.coin
+{
+	float: right;
+	text-align: right;
+}
+nav ul 
+{
+	list-style-type: none;
+}
+nav li 
+{
+	padding-top: 10px;
+}
+nav a 
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.3em;
+	text-decoration: none;
+	color: olive;
+	padding-left: 0px;
+}
+nav a:hover
+{
+	border-bottom: 3px solid olive;
+}
+nav 
+{
+	background: url('fond_degraderouge.png') repeat-y;
+	margin: 25px 0px 25px 100px;
+}
+#contenu 
+{
+	padding: 5px 10px 5px 10px;
+}
+header h1
+{
+	font-family: 'BallparkWeiner', serif;
+	font-weight: normal;
+	font-size: 2.5em;
+}
+section h2
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	font-family: 'Dayrom', serif;
+	font-size: 1.5em;
+	color: darkred;
+	text-decoration: none;
+}
+section p 
+{
+	text-align: justify;
+	font-family: 'Dayrom', serif;
+}
+footer
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: snow;
+    margin: 25px 25px 25px 25px;
+    padding: 10px 25px 10px 25px;
+}
+footer div
+{
+	padding-top: 50px;
+}
+#contact h2
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 2em;
+	color: fuchsia;
+	 font-family: 'BallparkWeiner', serif;
+}
+#contact a 
+{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: darkblue;
+	font-family: 'Dayrom', serif;
+
+}
+#contact p:first-child 
+{
+	font-family: 'Dayrom', serif;
+	font-size: 1.3em;
+}
+#contact p 
+{
+	font-size: 1.2em;
+	font-family: 'Dayrom', serif;
+}
+#contact h3
+{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: normal;
+	text-decoration: none;
+}
+#reseaux
+{
+	margin: 25px 0px 25px 0px;
+	padding: 0;
+}
+textarea
+{
+	margin-top: 10px;
+}
+label ~ input
+{
+	margin-top: 5px;
+}
+#formulaire
+{
+	font-size: 1.1em;
+	font-family: 'Dayrom', serif;
+}
+:required
+{
+	border: 1px solid yellow;
+}
+label:invalid
+{
+	border-bottom: 2px solid red;
+}
+#mention h2
+{
+   text-transform: uppercase;
+   font-size: 2em;
+   font-weight: normal;
+   text-decoration: none;
+   color: royalblue;
+   font-family: 'BallparkWeiner', serif;
+}
+#mention h3
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 1.5em;
+	font-family: 'Dayrom', serif;
+}
+#mention p 
+{
+	font-size: 1.2em;
+	color: green;
+	font-family: 'Dayrom', serif;
+}
+#mention p:last-child
+{
+	font-size: 1.5em;
+}
+#lien h2
+{   
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: normal;
+	font-family: 'BallparkWeiner', serif;
+}
+#lien a 
+{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: darkblue;
+	font-family: 'Dayrom', serif;
+	
+}
+
+
