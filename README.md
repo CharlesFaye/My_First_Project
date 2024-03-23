@@ -1,5 +1,5 @@
 ##ActuSports Sn
-This is my first project that I had designed as a student
+This is the first project that I had designed as a student
 and when I began learning HTML/CSS
 
 ##Getting Started 
