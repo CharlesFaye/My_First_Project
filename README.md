@@ -28,5 +28,9 @@ This project is opened to everyone. You can use it in order to improve it or jus
 
  **Charles Faye**
 
+ ##License 
+
+ This project is under the 2.0's License - See the License's file (LICENSE) for more details.
+
 
  
